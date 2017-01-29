@@ -5,7 +5,7 @@ Let's do it step by step.
 
     [ ] Write all classes exact the same way, but in C#.
     
-    [ ] Use FluentScheduler instead of Quartz.
+    [ ] Use FluentScheduler (https://github.com/fluentscheduler/FluentScheduler) instead of Quartz.
     
     [ ] Refactor it for C#.
     
