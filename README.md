@@ -3,9 +3,9 @@ C# implementation of EasyRules ( http://www.easyrules.org )
 
 Let's do it step by step.
 
-    [ ] Write all classes exact the same way, but in C#.
+    [ ] Write all classes exactly the same way, but in C#.
     
-    [ ] Use FluentScheduler (https://github.com/fluentscheduler/FluentScheduler) instead of Quartz.
+    [ ] Use FluentScheduler ( https://github.com/fluentscheduler/FluentScheduler ) instead of Quartz.
     
     [ ] Refactor it for C#.
     
