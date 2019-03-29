@@ -1,5 +1,5 @@
 # EasyRulesCsharp
-C# implementation of EasyRules ( http://www.easyrules.org )
+C# implementation of EasyRules ( https://github.com/j-easy/easy-rules )
 
 Let's do it step by step.
 
