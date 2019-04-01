@@ -1,4 +1,4 @@
-namespace EasyRulesCsharp.Annotation
+namespace EasyRulesCsharp.Attribute
 {
    /// <summary>
    /// Annotation to mark a method as a rule action.

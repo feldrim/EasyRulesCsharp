@@ -1,8 +1,8 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithConditionMethodHavingNonBooleanReturnType {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithConditionMethodHavingOneArgumentNotOfTypeFacts {
 		public bool Executed { get; }
 
-		public int When() {
+		public bool When(ref int i) {
 			throw new System.Exception("Not implemented");
 		}
 		public void Then() {

@@ -1,11 +1,11 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithoutActionMethod {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithActionMethodHavingOneArgumentNotOfTypeFacts {
 		public bool Executed { get; }
 
 		public bool When() {
 			throw new System.Exception("Not implemented");
 		}
-		public void Then() {
+		public void Then(ref int i) {
 			throw new System.Exception("Not implemented");
 		}
 

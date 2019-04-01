@@ -1,5 +1,7 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithMetaRuleAnnotation {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithoutActionMethod {
+		public bool Executed { get; }
+
 		public bool When() {
 			throw new System.Exception("Not implemented");
 		}

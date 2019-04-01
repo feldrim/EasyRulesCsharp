@@ -1,5 +1,5 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithMoreThanOnePriorityMethod {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithMoreThanOnePriorityMethod {
 		public bool Executed { get; }
 
 		public bool When() {

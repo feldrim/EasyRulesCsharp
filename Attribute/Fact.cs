@@ -1,10 +1,10 @@
-namespace EasyRulesCsharp.Annotation {
+namespace EasyRulesCsharp.Attribute {
 	/// <summary>
-	/// Annotation to mark a class as a rule.
+	/// Annotation to mark a parameter as a fact.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public class Rule {
+	public class Fact {
 	}
 
 }

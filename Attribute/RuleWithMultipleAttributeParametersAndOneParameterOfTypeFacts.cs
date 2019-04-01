@@ -1,7 +1,7 @@
 using System;
 using EasyRulesCsharp.Api;
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithMultipleAnnotatedParametersAndOneParameterOfTypeFacts {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithMultipleAttributeParametersAndOneParameterOfTypeFacts {
 		public bool When(ref Object fact1, ref Object fact2, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}

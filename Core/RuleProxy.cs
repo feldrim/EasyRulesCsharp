@@ -64,7 +64,7 @@ namespace EasyRulesCsharp.Core {
 		private java.lang.reflect.Method[] GetMethods() {
 			throw new System.Exception("Not implemented");
 		}
-		private Annotation.Rule GetRuleAnnotation() {
+		private Attribute.Rule GetRuleAnnotation() {
 			throw new System.Exception("Not implemented");
 		}
 		private String GetRuleName() {

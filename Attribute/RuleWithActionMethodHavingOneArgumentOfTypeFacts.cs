@@ -1,6 +1,6 @@
 using EasyRulesCsharp.Api;
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithActionMethodHavingOneArgumentOfTypeFacts {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithActionMethodHavingOneArgumentOfTypeFacts {
 		public bool When() {
 			throw new System.Exception("Not implemented");
 		}

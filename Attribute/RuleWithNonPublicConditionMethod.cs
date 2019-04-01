@@ -1,5 +1,5 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithNonPublicConditionMethod {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithNonPublicConditionMethod {
 		public bool Executed { get; }
 
 		private bool When() {

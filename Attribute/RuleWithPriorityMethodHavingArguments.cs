@@ -1,5 +1,5 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithNonPublicPriorityMethod {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithPriorityMethodHavingArguments {
 		public bool Executed { get; }
 
 		private bool When() {
@@ -8,7 +8,7 @@ namespace EasyRulesCsharp.Annotation {
 		private void Then() {
 			throw new System.Exception("Not implemented");
 		}
-		private int GetPriority() {
+		public int GetPriority(ref int i) {
 			throw new System.Exception("Not implemented");
 		}
 

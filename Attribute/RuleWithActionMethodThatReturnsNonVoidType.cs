@@ -1,5 +1,5 @@
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithActionMethodThatReturnsNonVoidType {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithActionMethodThatReturnsNonVoidType {
 		public bool Executed { get; }
 
 		private bool When() {

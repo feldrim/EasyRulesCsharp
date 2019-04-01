@@ -1,6 +1,6 @@
 using System;
-namespace EasyRulesCsharp.Annotation {
-	public class AnnotatedRuleWithPriorityMethodHavingNonIntegerReturnType {
+namespace EasyRulesCsharp.Attribute {
+	public class RuleWithPriorityMethodHavingNonIntegerReturnType {
 		public bool Executed { get; }
 
 		private bool When() {
