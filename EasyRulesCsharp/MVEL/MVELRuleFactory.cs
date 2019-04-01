@@ -1,5 +1,5 @@
-using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	/// <summary>
 	/// Factory to create {@link MVELRule} instances.
 	/// 
@@ -13,7 +13,7 @@ namespace org.jeasy.rules.mvel {
 		/// </summary>
 		/// <param name="ruleDescriptor">as a Reader</param>
 		/// <returns>a new rule</returns>
-		public static org.jeasy.rules.api.Rule CreateRuleFrom(ref java.io.Reader ruleDescriptor) {
+		public static Rule CreateRuleFrom(ref java.io.Reader ruleDescriptor) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -21,7 +21,7 @@ namespace org.jeasy.rules.mvel {
 		/// </summary>
 		/// <param name="rulesDescriptor">as a Reader</param>
 		/// <returns>a set of rules</returns>
-		public static org.jeasy.rules.api.Rules CreateRulesFrom(ref java.io.Reader rulesDescriptor) {
+		public static Rules CreateRulesFrom(ref java.io.Reader rulesDescriptor) {
 			throw new System.Exception("Not implemented");
 		}
 

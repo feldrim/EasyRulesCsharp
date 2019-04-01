@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.tutorials.fizzbuzz {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.fizzbuzz {
 	/// <summary>
 	/// source: http://examples.oreilly.com/jenut/FizzBuzz.java
 	/// </summary>

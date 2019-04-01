@@ -1,7 +1,7 @@
-using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	public class MVELRuleTest {
-		private org.jeasy.rules.api.Facts facts = new Facts();
+		private Facts facts = new Facts();
 		private MVELRule mvelRule = new MVELRule().name("rn").description("rd").priority(1);
 
 		public void SetUp() {

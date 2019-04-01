@@ -1,8 +1,8 @@
-using System;
-namespace org.jeasy.rules.tutorials.web {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.web {
 	public class SuspiciousRequestFilter {
-		private org.jeasy.rules.api.Rules rules;
-		private org.jeasy.rules.api.RulesEngine rulesEngine;
+		private Rules rules;
+		private RulesEngine rulesEngine;
 
 		public void Init(ref javax.servlet.FilterConfig filterConfig) {
 			throw new System.Exception("Not implemented");

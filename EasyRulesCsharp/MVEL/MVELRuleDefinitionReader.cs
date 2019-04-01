@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.mvel {
+
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	class MVELRuleDefinitionReader {
 		private org.yaml.snakeyaml.Yaml yaml = new Yaml();
 

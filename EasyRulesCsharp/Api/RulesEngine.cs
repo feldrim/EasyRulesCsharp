@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.api {
+using EasyRulesCsharp.EasyRulesCsharp.Core;
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	/// <summary>
 	/// Rules engine interface.
 	/// 
@@ -11,7 +12,7 @@ namespace org.jeasy.rules.api {
 		/// 
 		/// @return The rules engine parameters
 		/// </summary>
-		org.jeasy.rules.core.RulesEngineParameters Parameters { get; }
+		RulesEngineParameters Parameters { get; }
 		/// <summary>
 		/// Return the list of registered rule listeners.
 		/// 

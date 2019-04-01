@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class FactInjectionTest {
 		public void DeclaredFactsShouldBeCorrectlyInjectedByNameOrType() {
 			throw new System.Exception("Not implemented");
@@ -23,7 +24,7 @@ namespace org.jeasy.rules.core {
 			public bool ItRains(ref bool rain) {
 				throw new System.Exception("Not implemented");
 			}
-			public void TakeAnUmbrella(ref org.jeasy.rules.api.Facts facts) {
+			public void TakeAnUmbrella(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public bool IsExecuted() {
@@ -62,12 +63,12 @@ namespace org.jeasy.rules.core {
 		class DummyRule {
 			public Object Fact1 { get; }
 			public Object Fact2 { get; }
-			public org.jeasy.rules.api.Facts Facts { get; }
+			public Facts Facts { get; }
 
 			public bool When(ref Object fact1, ref Object fact2) {
 				throw new System.Exception("Not implemented");
 			}
-			public void Then(ref org.jeasy.rules.api.Facts facts) {
+			public void Then(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 

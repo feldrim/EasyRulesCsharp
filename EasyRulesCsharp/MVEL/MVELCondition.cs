@@ -1,11 +1,13 @@
 using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	/// <summary>
 	/// This class is an implementation of {@link Condition} that uses <a href="https://github.com/mvel/mvel">MVEL</a> to evaluate the condition.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public class MVELCondition : org.jeasy.rules.api.Condition  {
+	public class MVELCondition : Condition  {
 		private const org.slf4j.Logger LOGGER = LoggerFactory.getLogger(MVELCondition.class);
 		private String expression;
 		private java.io.Serializable compiledExpression;

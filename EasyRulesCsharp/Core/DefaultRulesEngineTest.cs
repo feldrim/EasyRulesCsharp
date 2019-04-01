@@ -1,9 +1,10 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class DefaultRulesEngineTest : AbstractTest  {
 		public org.junit.rules.ExpectedException ExpectedException = ExpectedException.none();
-		private org.jeasy.rules.api.RuleListener ruleListener;
-		private org.jeasy.rules.api.RulesEngineListener rulesEngineListener;
+		private RuleListener ruleListener;
+		private RulesEngineListener rulesEngineListener;
 		private AnnotatedRule annotatedRule;
 
 		public override void Setup() {

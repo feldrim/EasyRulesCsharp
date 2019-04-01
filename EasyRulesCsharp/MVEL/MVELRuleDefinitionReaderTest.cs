@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.mvel {
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	public class MVELRuleDefinitionReaderTest {
 		private MVELRuleDefinitionReader ruleDefinitionReader = new MVELRuleDefinitionReader();
 

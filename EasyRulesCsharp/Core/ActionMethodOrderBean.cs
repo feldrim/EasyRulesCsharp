@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Utility class that associates an action method and its execution order.
 	/// 

@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.annotation {
+namespace EasyRulesCsharp.EasyRulesCsharp.Annotation {
 	/// <summary>
 	/// Annotation to mark a class as a rule.
 	/// 

@@ -1,6 +1,6 @@
-using System;
-namespace org.jeasy.rules.tutorials.airco {
-	public class HighTemperatureCondition : org.jeasy.rules.api.Condition  {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.airco {
+	public class HighTemperatureCondition : Condition  {
 		/// <summary>
 		/// A NoOp {@link Condition} that always returns true.
 		/// </summary>

@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	/// <summary>
 	/// A conditional rule group is a composite rule where the rule with the highest priority acts as a condition:
 	/// if the rule with the highest priority evaluates to true, then we try to evaluate the rest of the rules
@@ -8,8 +9,8 @@ namespace org.jeasy.rules.support {
 	/// @author Dag Framstad (dagframstad@gmail.com)
 	/// </summary>
 	public class ConditionalRuleGroup : CompositeRule  {
-		private org.jeasy.rules.api.Rule[] successfulEvaluations;
-		private org.jeasy.rules.api.Rule conditionalRule;
+		private Rule[] successfulEvaluations;
+		private Rule conditionalRule;
 
 		/// <summary>
 		/// Create a conditional rule group.
@@ -46,7 +47,7 @@ namespace org.jeasy.rules.support {
 		/// </summary>
 		/// <param name="facts">The facts.</param>
 		/// <returns>true if the path rules condition is true.</returns>
-		public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+		public override bool Evaluate(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -55,13 +56,13 @@ namespace org.jeasy.rules.support {
 		/// </summary>
 		/// <param name="facts">The facts.</param>
 		/// <returns>@throws Exception thrown if an exception occurs during actions performing</returns>
-		public override void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public override void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private org.jeasy.rules.api.Rule GetRuleWithHighestPriority() {
+		private Rule GetRuleWithHighestPriority() {
 			throw new System.Exception("Not implemented");
 		}
-		private java.util.List<org.jeasy.rules.api.Rule> SortRules() {
+		private java.util.List<Rule> SortRules() {
 			throw new System.Exception("Not implemented");
 		}
 

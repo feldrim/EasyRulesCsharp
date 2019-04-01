@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.tutorials.web {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.web {
 	public class SuspiciousRequestRule {
 		const String SUSPICIOUS = "suspicious";
 

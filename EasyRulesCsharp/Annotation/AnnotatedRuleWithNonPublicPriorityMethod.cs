@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.annotation {
+namespace EasyRulesCsharp.EasyRulesCsharp.Annotation {
 	public class AnnotatedRuleWithNonPublicPriorityMethod {
 		public bool Executed { get; }
 

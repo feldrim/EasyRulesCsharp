@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class BasicRuleTest : AbstractTest  {
 		public void BasicRuleEvaluateShouldReturnFalse() {
 			throw new System.Exception("Not implemented");
@@ -15,7 +16,7 @@ namespace org.jeasy.rules.core {
 			public int GetPriority() {
 				throw new System.Exception("Not implemented");
 			}
-			public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+			public override bool Evaluate(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public String GetName() {
@@ -27,7 +28,7 @@ namespace org.jeasy.rules.core {
 			public int GetPriority() {
 				throw new System.Exception("Not implemented");
 			}
-			public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+			public override bool Evaluate(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public String GetName() {
@@ -39,7 +40,7 @@ namespace org.jeasy.rules.core {
 			public int GetPriority() {
 				throw new System.Exception("Not implemented");
 			}
-			public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+			public override bool Evaluate(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public String GetName() {

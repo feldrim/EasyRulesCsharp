@@ -1,11 +1,12 @@
-using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using EasyRulesCsharp.EasyRulesCsharp.Core;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	public class UnitRuleGroupTest {
-		private org.jeasy.rules.api.Rule rule1;
-		private org.jeasy.rules.api.Rule rule2;
-		private org.jeasy.rules.api.Facts facts = new Facts();
-		private org.jeasy.rules.api.Rules rules = new Rules();
-		private org.jeasy.rules.core.DefaultRulesEngine rulesEngine = new DefaultRulesEngine();
+		private Rule rule1;
+		private Rule rule2;
+		private Facts facts = new Facts();
+		private Rules rules = new Rules();
+		private DefaultRulesEngine rulesEngine = new DefaultRulesEngine();
 		private UnitRuleGroup unitRuleGroup;
 
 		public void SetUp() {

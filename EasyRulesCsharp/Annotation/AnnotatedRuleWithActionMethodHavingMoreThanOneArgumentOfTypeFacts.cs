@@ -1,10 +1,10 @@
-using System;
-namespace org.jeasy.rules.annotation {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Annotation {
 	public class AnnotatedRuleWithActionMethodHavingMoreThanOneArgumentOfTypeFacts {
 		public bool When() {
 			throw new System.Exception("Not implemented");
 		}
-		public void Then(ref org.jeasy.rules.api.Facts facts, ref org.jeasy.rules.api.Facts otherFacts) {
+		public void Then(ref Facts facts, ref Facts otherFacts) {
 			throw new System.Exception("Not implemented");
 		}
 

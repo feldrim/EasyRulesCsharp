@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.api {
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	/// <summary>
 	/// Represents a set of named facts. Facts have unique name within a <code>Facts</code> object.
 	/// 

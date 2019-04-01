@@ -1,16 +1,18 @@
 using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using EasyRulesCsharp.EasyRulesCsharp.Core;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	/// <summary>
 	/// Base class representing a composite rule composed of a set of rules.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public abstract class CompositeRule : org.jeasy.rules.core.BasicRule  {
-		private java.util.Map<Object, org.jeasy.rules.api.Rule> proxyRules;
+	public abstract class CompositeRule : BasicRule  {
+		private java.util.Map<Object, Rule> proxyRules;
 		/// <summary>
 		/// The set of composing rules.
 		/// </summary>
-		protected org.jeasy.rules.api.Rule[] rules;
+		protected Rule[] rules;
 
 		/// <summary>
 		/// Create a new {@link CompositeRule}.
@@ -42,8 +44,8 @@ namespace org.jeasy.rules.support {
 		public CompositeRule(ref String name, ref String description, ref int priority) {
 			throw new System.Exception("Not implemented");
 		}
-		public abstract bool Evaluate(ref org.jeasy.rules.api.Facts facts);
-		public abstract void Execute(ref org.jeasy.rules.api.Facts facts);
+		public abstract bool Evaluate(ref Facts facts);
+		public abstract void Execute(ref Facts facts);
 		/// <summary>
 		/// Add a rule to the composite rule.
 		/// </summary>

@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.tutorials.weather {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.weather {
 	public class WeatherRule {
 		public bool ItRains(ref bool rain) {
 			throw new System.Exception("Not implemented");

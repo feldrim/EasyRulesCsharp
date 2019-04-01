@@ -1,10 +1,11 @@
-using System;
-namespace org.jeasy.rules.tutorials.airco {
-	public class DecreaseTemperatureAction : org.jeasy.rules.api.Action  {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using Action = EasyRulesCsharp.EasyRulesCsharp.Api.Action;
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.airco {
+	public class DecreaseTemperatureAction : Action  {
 		static DecreaseTemperatureAction DecreaseTemperature() {
 			throw new System.Exception("Not implemented");
 		}
-		public void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>

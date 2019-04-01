@@ -1,9 +1,10 @@
-using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using EasyRulesCsharp.EasyRulesCsharp.Core;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	public class ActivationRuleGroupTest {
-		private org.jeasy.rules.api.Facts facts = new Facts();
-		private org.jeasy.rules.api.Rules rules = new Rules();
-		private org.jeasy.rules.core.DefaultRulesEngine rulesEngine = new DefaultRulesEngine();
+		private Facts facts = new Facts();
+		private Rules rules = new Rules();
+		private DefaultRulesEngine rulesEngine = new DefaultRulesEngine();
 
 		public void OnlySelectedRuleShouldBeExecuted_whenComposingRulesHaveDifferentPriorities() {
 			throw new System.Exception("Not implemented");

@@ -1,9 +1,10 @@
-using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using Action = EasyRulesCsharp.EasyRulesCsharp.Api.Action;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class DefaultRuleTest : AbstractTest  {
-		private org.jeasy.rules.api.Condition condition;
-		private org.jeasy.rules.api.Action action1;
-		private org.jeasy.rules.api.Action action2;
+		private Condition condition;
+		private Action action1;
+		private Action action2;
 
 		public void WhenConditionIsTrue_ThenActionsShouldBeExecutedInOrder() {
 			throw new System.Exception("Not implemented");

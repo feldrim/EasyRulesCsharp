@@ -1,8 +1,8 @@
-using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class RulesEngineListenerTest : AbstractTest  {
-		private org.jeasy.rules.api.RulesEngineListener rulesEngineListener1;
-		private org.jeasy.rules.api.RulesEngineListener rulesEngineListener2;
+		private RulesEngineListener rulesEngineListener1;
+		private RulesEngineListener rulesEngineListener2;
 
 		public override void Setup() {
 			throw new System.Exception("Not implemented");

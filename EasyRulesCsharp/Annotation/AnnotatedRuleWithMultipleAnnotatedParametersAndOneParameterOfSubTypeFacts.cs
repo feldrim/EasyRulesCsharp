@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.annotation {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Annotation {
 	public class AnnotatedRuleWithMultipleAnnotatedParametersAndOneParameterOfSubTypeFacts {
 		public bool When(ref Object fact1, ref Object fact2, ref SubFacts facts) {
 			throw new System.Exception("Not implemented");
@@ -8,7 +9,7 @@ namespace org.jeasy.rules.annotation {
 			throw new System.Exception("Not implemented");
 		}
 
-		public static class SubFacts : org.jeasy.rules.api.Facts  {
+		public static class SubFacts : Facts  {
 		}
 	}
 

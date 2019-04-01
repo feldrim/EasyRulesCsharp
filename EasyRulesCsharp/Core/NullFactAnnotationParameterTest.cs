@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Null value in facts must be accepted, this is not same thing that fact missing
 	/// </summary>

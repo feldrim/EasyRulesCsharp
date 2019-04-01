@@ -1,5 +1,7 @@
 using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	class MVELRuleDefinition {
 		public String Name { get; set; }
 		public String Description { get; set; }
@@ -10,7 +12,7 @@ namespace org.jeasy.rules.mvel {
 		private java.util.List<String> allowedCompositeRuleTypes = new ArrayList<>(
             Arrays.asList(UnitRuleGroup.class.getSimpleName(), ConditionalRuleGroup.class.getSimpleName(), ActivationRuleGroup.class.getSimpleName())
     );
-		private org.jeasy.rules.api.Rules composingRules;
+		private Rules composingRules;
 
 		void SetComposingRules(ref java.util.List<MVELRuleDefinition> composingRuleDefinitions) {
 			throw new System.Exception("Not implemented");
@@ -21,16 +23,16 @@ namespace org.jeasy.rules.mvel {
 		String GetCompositeRuleType() {
 			return this.compositeRuleType;
 		}
-		org.jeasy.rules.api.Rules GetComposingRules() {
+		Rules GetComposingRules() {
 			return this.composingRules;
 		}
-		org.jeasy.rules.api.Rule Create() {
+		Rule Create() {
 			throw new System.Exception("Not implemented");
 		}
-		private org.jeasy.rules.api.Rule CreateSimpleRule() {
+		private Rule CreateSimpleRule() {
 			throw new System.Exception("Not implemented");
 		}
-		private org.jeasy.rules.api.Rule CreateCompositeRule() {
+		private Rule CreateCompositeRule() {
 			throw new System.Exception("Not implemented");
 		}
 		private bool IsCompositeRule() {

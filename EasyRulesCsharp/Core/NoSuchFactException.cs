@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	class NoSuchFactException {
 		public String MissingFact { get; }
 

@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.mvel {
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	public class MVELRuleFactoryTest {
 		public org.junit.rules.ExpectedException ExpectedException = ExpectedException.none();
 

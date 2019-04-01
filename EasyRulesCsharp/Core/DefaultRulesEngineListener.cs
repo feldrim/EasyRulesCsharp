@@ -1,25 +1,25 @@
-using System;
-namespace org.jeasy.rules.core {
-	class DefaultRulesEngineListener : org.jeasy.rules.api.RulesEngineListener  {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
+	class DefaultRulesEngineListener : RulesEngineListener  {
 		private const org.slf4j.Logger LOGGER = LoggerFactory.getLogger(DefaultRulesEngineListener.class);
 		private RulesEngineParameters parameters;
 
 		DefaultRulesEngineListener(ref RulesEngineParameters parameters) {
 			throw new System.Exception("Not implemented");
 		}
-		public void BeforeEvaluate(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public void BeforeEvaluate(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public void AfterExecute(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public void AfterExecute(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		private void LogEngineParameters() {
 			throw new System.Exception("Not implemented");
 		}
-		private void Log(ref org.jeasy.rules.api.Rules rules) {
+		private void Log(ref Rules rules) {
 			throw new System.Exception("Not implemented");
 		}
-		private void Log(ref org.jeasy.rules.api.Facts facts) {
+		private void Log(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>

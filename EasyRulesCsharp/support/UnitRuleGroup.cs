@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	/// <summary>
 	/// A unit rule group is a composite rule that acts as a unit: Either all rules are applied or nothing is applied.
 	/// 
@@ -36,10 +37,10 @@ namespace org.jeasy.rules.support {
 		public UnitRuleGroup(ref String name, ref String description, ref int priority) {
 			throw new System.Exception("Not implemented");
 		}
-		public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+		public override bool Evaluate(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public override void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public override void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 

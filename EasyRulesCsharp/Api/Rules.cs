@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.api {
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	/// <summary>
 	/// This class encapsulates a set of rules and represents a rules namespace.
 	/// Rules must have a unique name within a rules namespace.

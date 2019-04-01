@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Inference {@link RulesEngine} implementation.
 	/// 
@@ -26,41 +27,41 @@ namespace org.jeasy.rules.core {
 		public InferenceRulesEngine(ref RulesEngineParameters parameters) {
 			throw new System.Exception("Not implemented");
 		}
-		public override void Fire(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public override void Fire(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private Set<org.jeasy.rules.api.Rule> SelectCandidates(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		private Set<Rule> SelectCandidates(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public override Map<org.jeasy.rules.api.Rule, Boolean> Check(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public override Map<Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// Register a rule listener.
 		/// </summary>
 		/// <param name="ruleListener">to register</param>
-		public override void RegisterRuleListener(ref org.jeasy.rules.api.RuleListener ruleListener) {
+		public override void RegisterRuleListener(ref RuleListener ruleListener) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// Register a list of rule listener.
 		/// </summary>
 		/// <param name="ruleListeners">to register</param>
-		public void RegisterRuleListeners(ref List<org.jeasy.rules.api.RuleListener> ruleListeners) {
+		public void RegisterRuleListeners(ref List<RuleListener> ruleListeners) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// Register a rules engine listener.
 		/// </summary>
 		/// <param name="rulesEngineListener">to register</param>
-		public override void RegisterRulesEngineListener(ref org.jeasy.rules.api.RulesEngineListener rulesEngineListener) {
+		public override void RegisterRulesEngineListener(ref RulesEngineListener rulesEngineListener) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// Register a list of rules engine listener.
 		/// </summary>
 		/// <param name="rulesEngineListeners">to register</param>
-		public void RegisterRulesEngineListeners(ref List<org.jeasy.rules.api.RulesEngineListener> rulesEngineListeners) {
+		public void RegisterRulesEngineListeners(ref List<RulesEngineListener> rulesEngineListeners) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -73,7 +74,7 @@ namespace org.jeasy.rules.core {
 		/// Check rules without firing them.
 		/// </summary>
 		/// <returns>a map with the result of evaluation of each rule</returns>
-		public override java.util.Map<org.jeasy.rules.api.Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
+		public override java.util.Map<Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 

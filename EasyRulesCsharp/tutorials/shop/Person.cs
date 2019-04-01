@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.tutorials.shop {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.shop {
 	public class Person {
 		public String Name { get; }
 		public int Age { get; }

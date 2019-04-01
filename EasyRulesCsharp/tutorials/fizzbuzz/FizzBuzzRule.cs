@@ -1,6 +1,7 @@
 using System;
-namespace org.jeasy.rules.tutorials.fizzbuzz {
-	public class FizzBuzzRule : org.jeasy.rules.support.UnitRuleGroup  {
+using EasyRulesCsharp.EasyRulesCsharp.Support;
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.fizzbuzz {
+	public class FizzBuzzRule : UnitRuleGroup  {
 		public FizzBuzzRule(ref Object rules) {
 			throw new System.Exception("Not implemented");
 		}

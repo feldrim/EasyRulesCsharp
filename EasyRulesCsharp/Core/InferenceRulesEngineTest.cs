@@ -1,5 +1,5 @@
-using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class InferenceRulesEngineTest {
 		public void TestCandidateSelection() {
 			throw new System.Exception("Not implemented");
@@ -15,7 +15,7 @@ namespace org.jeasy.rules.core {
 			public bool When(ref bool bar) {
 				throw new System.Exception("Not implemented");
 			}
-			public void Then(ref org.jeasy.rules.api.Facts facts) {
+			public void Then(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public int Priority() {
@@ -33,7 +33,7 @@ namespace org.jeasy.rules.core {
 			public bool When(ref bool foo) {
 				throw new System.Exception("Not implemented");
 			}
-			public void Then(ref org.jeasy.rules.api.Facts facts) {
+			public void Then(ref Facts facts) {
 				throw new System.Exception("Not implemented");
 			}
 			public int Priority() {

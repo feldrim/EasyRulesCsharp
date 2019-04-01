@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Parameters of a rules engine.
 	/// 

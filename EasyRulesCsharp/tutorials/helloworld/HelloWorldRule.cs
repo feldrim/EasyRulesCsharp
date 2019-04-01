@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.tutorials.helloworld {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.helloworld {
 	public class HelloWorldRule {
 		public bool When() {
 			throw new System.Exception("Not implemented");

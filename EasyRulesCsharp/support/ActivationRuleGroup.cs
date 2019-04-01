@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.support {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Support {
 	/// <summary>
 	/// An activation rule group is a composite rule that fires the first applicable rule and ignores other rules in
 	/// the group (XOR logic). Rules are first sorted by their natural order (priority by default) within the group.
@@ -7,7 +8,7 @@ namespace org.jeasy.rules.support {
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
 	public class ActivationRuleGroup : CompositeRule  {
-		private org.jeasy.rules.api.Rule selectedRule;
+		private Rule selectedRule;
 
 		/// <summary>
 		/// Create an activation rule group.
@@ -39,10 +40,10 @@ namespace org.jeasy.rules.support {
 		public ActivationRuleGroup(ref String name, ref String description, ref int priority) {
 			throw new System.Exception("Not implemented");
 		}
-		public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+		public override bool Evaluate(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public override void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public override void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 

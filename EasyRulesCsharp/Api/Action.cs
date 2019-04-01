@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.api {
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	/// <summary>
 	/// This interface represents a rule's action.
 	/// 

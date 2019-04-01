@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Main class to create rule proxies from annotated objects.
 	/// 
@@ -18,7 +19,7 @@ namespace org.jeasy.rules.core {
 		/// </summary>
 		/// <param name="rule">the annotated rule object.</param>
 		/// <returns>a proxy that implements the {@link Rule} interface.</returns>
-		public static org.jeasy.rules.api.Rule AsRule(ref Object rule) {
+		public static Rule AsRule(ref Object rule) {
 			throw new System.Exception("Not implemented");
 		}
 		public Object Invoke(ref Object proxy, ref java.lang.reflect.Method method, ref Object[] args) {
@@ -33,7 +34,7 @@ namespace org.jeasy.rules.core {
 		private Object CompareToMethod(ref Object[] args) {
 			throw new System.Exception("Not implemented");
 		}
-		private List<Object> GetActualParameters(ref java.lang.reflect.Method method, ref org.jeasy.rules.api.Facts facts) {
+		private List<Object> GetActualParameters(ref java.lang.reflect.Method method, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		private bool EqualsMethod(ref Object[] args) {
@@ -45,7 +46,7 @@ namespace org.jeasy.rules.core {
 		private String ToStringMethod() {
 			throw new System.Exception("Not implemented");
 		}
-		private int CompareTo(ref org.jeasy.rules.api.Rule otherRule) {
+		private int CompareTo(ref Rule otherRule) {
 			throw new System.Exception("Not implemented");
 		}
 		private int GetRulePriority() {
@@ -63,7 +64,7 @@ namespace org.jeasy.rules.core {
 		private java.lang.reflect.Method[] GetMethods() {
 			throw new System.Exception("Not implemented");
 		}
-		private org.jeasy.rules.annotation.Rule GetRuleAnnotation() {
+		private Annotation.Rule GetRuleAnnotation() {
 			throw new System.Exception("Not implemented");
 		}
 		private String GetRuleName() {

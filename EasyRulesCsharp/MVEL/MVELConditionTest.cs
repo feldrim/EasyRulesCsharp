@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.mvel {
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	public class MVELConditionTest {
 		public void TestMVELExpressionEvaluation() {
 			throw new System.Exception("Not implemented");

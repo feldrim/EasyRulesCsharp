@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Basic rule implementation class that provides common methods.
 	/// 
@@ -8,7 +9,7 @@ namespace org.jeasy.rules.core {
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public class BasicRule : org.jeasy.rules.api.Rule  {
+	public class BasicRule : Rule  {
 		public String Name { get; }
 		public String Description { get; set; }
 		public int Priority { get; set; }
@@ -58,13 +59,13 @@ namespace org.jeasy.rules.core {
 		/// <summary>
 		/// {@inheritDoc}
 		/// </summary>
-		public bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+		public bool Evaluate(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// {@inheritDoc}
 		/// </summary>
-		public void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -79,7 +80,7 @@ namespace org.jeasy.rules.core {
 		public String ToString() {
 			throw new System.Exception("Not implemented");
 		}
-		public int CompareTo(ref org.jeasy.rules.api.Rule rule) {
+		public int CompareTo(ref Rule rule) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>

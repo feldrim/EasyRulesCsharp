@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.api {
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	public class FactsTest {
 		private Facts facts = new Facts();
 

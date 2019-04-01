@@ -1,11 +1,14 @@
 using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using Action = EasyRulesCsharp.EasyRulesCsharp.Api.Action;
+
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	/// <summary>
 	/// This class is an implementation of {@link Action} that uses <a href="https://github.com/mvel/mvel">MVEL</a> to execute the action.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public class MVELAction : org.jeasy.rules.api.Action  {
+	public class MVELAction : Action  {
 		private const org.slf4j.Logger LOGGER = LoggerFactory.getLogger(MVELAction.class);
 		private String expression;
 		private java.io.Serializable compiledExpression;
@@ -25,7 +28,7 @@ namespace org.jeasy.rules.mvel {
 		public MVELAction(ref String expression, ref org.mvel2.ParserContext parserContext) {
 			throw new System.Exception("Not implemented");
 		}
-		public void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>

@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// This component validates that an annotated rule object is well defined.
 	/// 

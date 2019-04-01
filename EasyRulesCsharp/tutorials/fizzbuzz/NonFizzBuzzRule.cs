@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.tutorials.fizzbuzz {
+namespace EasyRulesCsharp.EasyRulesCsharp.Tutorials.fizzbuzz {
 	public class NonFizzBuzzRule {
 		public bool IsNotFizzNorBuzz(ref Integer number) {
 			throw new System.Exception("Not implemented");

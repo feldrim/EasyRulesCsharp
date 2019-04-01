@@ -1,16 +1,18 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using Action = EasyRulesCsharp.EasyRulesCsharp.Api.Action;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Builder to create {@link Rule} instances.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
 	public class RuleBuilder {
-		private String name = org.jeasy.rules.api.Rule.DEFAULT_NAME;
-		private String description = org.jeasy.rules.api.Rule.DEFAULT_DESCRIPTION;
-		private int priority = org.jeasy.rules.api.Rule.DEFAULT_PRIORITY;
-		private org.jeasy.rules.api.Condition condition = org.jeasy.rules.api.Condition.FALSE;
-		private org.jeasy.rules.api.Action[] actions = new ArrayList<>();
+		private String name = Rule.DEFAULT_NAME;
+		private String description = Rule.DEFAULT_DESCRIPTION;
+		private int priority = Rule.DEFAULT_PRIORITY;
+		private Condition condition = Condition.FALSE;
+		private Action[] actions = new ArrayList<>();
 
 		/// <summary>
 		/// Set rule name.
@@ -41,7 +43,7 @@ namespace org.jeasy.rules.core {
 		/// </summary>
 		/// <param name="condition">of the rule</param>
 		/// <returns>the builder instance</returns>
-		public RuleBuilder When(ref org.jeasy.rules.api.Condition condition) {
+		public RuleBuilder When(ref Condition condition) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -49,14 +51,14 @@ namespace org.jeasy.rules.core {
 		/// </summary>
 		/// <param name="action">to add</param>
 		/// <returns>the builder instance</returns>
-		public RuleBuilder Then(ref org.jeasy.rules.api.Action action) {
+		public RuleBuilder Then(ref Action action) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
 		/// Create a new {@link Rule}.
 		/// </summary>
 		/// <returns>a new rule instance</returns>
-		public org.jeasy.rules.api.Rule Build() {
+		public Rule Build() {
 			throw new System.Exception("Not implemented");
 		}
 

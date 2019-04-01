@@ -1,5 +1,5 @@
-using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class CustomRuleOrderingTest : AbstractTest  {
 		private MyRule rule1;
 		private MyRule rule2;
@@ -10,7 +10,7 @@ namespace org.jeasy.rules.core {
 
 
 		class MyRule : BasicRule  {
-			public override int CompareTo(ref org.jeasy.rules.api.Rule rule) {
+			public override int CompareTo(ref Rule rule) {
 				throw new System.Exception("Not implemented");
 			}
 

@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	sealed class Utils {
 		private Utils() {
 			throw new System.Exception("Not implemented");

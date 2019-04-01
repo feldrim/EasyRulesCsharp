@@ -1,5 +1,6 @@
 using System;
-namespace org.jeasy.rules.core {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	/// <summary>
 	/// Default {@link RulesEngine} implementation.
 	/// 
@@ -25,40 +26,40 @@ namespace org.jeasy.rules.core {
 		public DefaultRulesEngine(ref RulesEngineParameters parameters) {
 			throw new System.Exception("Not implemented");
 		}
-		public override void Fire(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public override void Fire(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		void DoFire(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		void DoFire(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public override java.util.Map<org.jeasy.rules.api.Rule, Boolean> Check(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		public override java.util.Map<Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private java.util.Map<org.jeasy.rules.api.Rule, Boolean> DoCheck(ref org.jeasy.rules.api.Rules rules, ref org.jeasy.rules.api.Facts facts) {
+		private java.util.Map<Rule, Boolean> DoCheck(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersOnFailure(ref org.jeasy.rules.api.Rule rule, ref Exception exception, ref org.jeasy.rules.api.Facts facts) {
+		private void TriggerListenersOnFailure(ref Rule rule, ref Exception exception, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersOnSuccess(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		private void TriggerListenersOnSuccess(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersBeforeExecute(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		private void TriggerListenersBeforeExecute(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private bool TriggerListenersBeforeEvaluate(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		private bool TriggerListenersBeforeEvaluate(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersAfterEvaluate(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts, ref bool evaluationResult) {
+		private void TriggerListenersAfterEvaluate(ref Rule rule, ref Facts facts, ref bool evaluationResult) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersBeforeRules(ref org.jeasy.rules.api.Rules rule, ref org.jeasy.rules.api.Facts facts) {
+		private void TriggerListenersBeforeRules(ref Rules rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private void TriggerListenersAfterRules(ref org.jeasy.rules.api.Rules rule, ref org.jeasy.rules.api.Facts facts) {
+		private void TriggerListenersAfterRules(ref Rules rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		private bool ShouldBeEvaluated(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		private bool ShouldBeEvaluated(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>
@@ -71,7 +72,7 @@ namespace org.jeasy.rules.core {
 		/// Check rules without firing them.
 		/// </summary>
 		/// <returns>a map with the result of evaluation of each rule</returns>
-		public override java.util.Map<org.jeasy.rules.api.Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
+		public override java.util.Map<Rule, Boolean> Check(ref Rules rules, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 

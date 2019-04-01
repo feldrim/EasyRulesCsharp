@@ -1,13 +1,17 @@
 using System;
-namespace org.jeasy.rules.mvel {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+using EasyRulesCsharp.EasyRulesCsharp.Core;
+using Action = EasyRulesCsharp.EasyRulesCsharp.Api.Action;
+
+namespace EasyRulesCsharp.EasyRulesCsharp.MVEL {
 	/// <summary>
 	/// A {@link org.jeasy.rules.api.Rule} implementation that uses <a href="https://github.com/mvel/mvel">MVEL</a> to evaluate and execute the rule.
 	/// 
 	/// @author Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 	/// </summary>
-	public class MVELRule : org.jeasy.rules.core.BasicRule  {
-		private org.jeasy.rules.api.Condition condition = org.jeasy.rules.api.Condition.FALSE;
-		private org.jeasy.rules.api.Action[] actions = new ArrayList<>();
+	public class MVELRule : BasicRule  {
+		private Condition condition = Condition.FALSE;
+		private Action[] actions = new ArrayList<>();
 
 		/// <summary>
 		/// Create a new MVEL rule.
@@ -55,10 +59,10 @@ namespace org.jeasy.rules.mvel {
 		public MVELRule Then(ref String action) {
 			throw new System.Exception("Not implemented");
 		}
-		public override bool Evaluate(ref org.jeasy.rules.api.Facts facts) {
+		public override bool Evaluate(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public override void Execute(ref org.jeasy.rules.api.Facts facts) {
+		public override void Execute(ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
 

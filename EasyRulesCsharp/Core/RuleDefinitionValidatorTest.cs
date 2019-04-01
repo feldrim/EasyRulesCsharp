@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class RuleDefinitionValidatorTest {
 		private RuleDefinitionValidator ruleDefinitionValidator;
 

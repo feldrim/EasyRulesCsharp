@@ -1,5 +1,5 @@
 using System;
-namespace org.jeasy.rules.api {
+namespace EasyRulesCsharp.EasyRulesCsharp.Api {
 	/// <summary>
 	/// Abstraction for a rule that can be fired by the rules engine.
 	/// 

@@ -1,21 +1,22 @@
 using System;
-namespace org.jeasy.rules.core {
-	class DefaultRuleListener : org.jeasy.rules.api.RuleListener  {
+using EasyRulesCsharp.EasyRulesCsharp.Api;
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
+	class DefaultRuleListener : RuleListener  {
 		private const org.slf4j.Logger LOGGER = LoggerFactory.getLogger(DefaultRuleListener.class);
 
-		public bool BeforeEvaluate(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		public bool BeforeEvaluate(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public void AfterEvaluate(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts, ref bool evaluationResult) {
+		public void AfterEvaluate(ref Rule rule, ref Facts facts, ref bool evaluationResult) {
 			throw new System.Exception("Not implemented");
 		}
-		public void BeforeExecute(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		public void BeforeExecute(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public void OnSuccess(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts) {
+		public void OnSuccess(ref Rule rule, ref Facts facts) {
 			throw new System.Exception("Not implemented");
 		}
-		public void OnFailure(ref org.jeasy.rules.api.Rule rule, ref org.jeasy.rules.api.Facts facts, ref Exception exception) {
+		public void OnFailure(ref Rule rule, ref Facts facts, ref Exception exception) {
 			throw new System.Exception("Not implemented");
 		}
 		/// <summary>

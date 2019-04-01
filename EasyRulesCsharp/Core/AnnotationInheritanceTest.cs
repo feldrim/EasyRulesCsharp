@@ -1,5 +1,4 @@
-using System;
-namespace org.jeasy.rules.core {
+namespace EasyRulesCsharp.EasyRulesCsharp.Core {
 	public class AnnotationInheritanceTest : AbstractTest  {
 		public void AnnotationsShouldBeInherited() {
 			throw new System.Exception("Not implemented");
