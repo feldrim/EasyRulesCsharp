@@ -89,7 +89,7 @@
     <Compile Include="Core\InferenceRulesEngine.cs" />
     <Compile Include="Core\InferenceRulesEngineTest.cs" />
     <Compile Include="Core\NoSuchFactException.cs" />
-    <Compile Include="Core\NullFactAnnotationParameterTest.cs" />
+    <Compile Include="Core\NullFactAttributeParameterTest.cs" />
     <Compile Include="Core\RuleBuilder.cs" />
     <Compile Include="Core\RuleBuilderTest.cs" />
     <Compile Include="Core\RuleDefinitionValidator.cs" />
